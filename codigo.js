@@ -17,6 +17,7 @@ console.log(data[4][0].colorPrincipalPagina);
 const style = document.documentElement.style;
 
 style.setProperty("--color-primario", data[4][0].colorPrincipalPagina);
+style.setProperty("--valor-portada", data[3].length+"00%");
 
 // ---------color de pagina fin---
 
